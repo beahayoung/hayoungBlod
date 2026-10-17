@@ -1,0 +1,28 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+/* 프로필 사진 크기 키우기 */
+#sidebar #avatar {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 1rem;
+  &:hover {
+    transform: none;
+  }
+  img {
+    width: 100%!important;
+    height: 100%!important;
+  }
+}
+/* 마우스 올렸을 때 확대 효과 끄기 */
+/* append your custom style below */

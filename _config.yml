@@ -101,6 +101,9 @@ cdn:
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/profilo.jpg
 
+# 파비콘 이미지 경로 (내 파일: /assets/img/xxx.png, 외부 링크: https://... / 비워두면 테마 기본 아이콘)
+favicon: /assets/img/profilo.jpg
+
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
